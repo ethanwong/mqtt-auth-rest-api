@@ -68,7 +68,7 @@ uri:/mqtt/client<br>
 method:post<br>
 content-type:application/json<br>
 
-###3、修改客户端和用户信息
+### 3、修改客户端和用户信息
 uri:/mqtt/client<br>
 method:put<br>
 content-type:application/json<br>
