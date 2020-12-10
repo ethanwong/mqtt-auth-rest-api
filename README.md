@@ -5,7 +5,13 @@
 
 该API提供两种可配置的验证模式（clientId-password、username-password）<br>
 在配置文件“application.yml”进行指定<br>
-com:coffee:mqtt:auth:method:clientId-password #username-password<br>
+~~~
+com:
+    coffee:
+        mqtt:
+            auth:
+                method: clientId-password #username-password
+~~~
 
 ## 鉴权校验REST API
 ### 1、连接校验
